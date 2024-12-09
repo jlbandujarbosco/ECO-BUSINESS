@@ -44,6 +44,41 @@
             color: yellow;
             font-weight: bold;
         }
+        section#nuestros-proyectos {
+            height: 500px;
+        }
+        section#nuestros-proyectos article {
+            height: 50%;
+            padding: 20px;
+        }
+
+        div#bordeverde,div#bordeverde-flex  {
+            border:4px solid green;
+            border-radius: 15px;
+            height: 100%;
+        }
+
+        div#bordeverde img {
+            float:right;
+            margin-left: 10px;
+            height: 100%;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        div#bordeverde p {
+            padding: 20px;
+        }
+        footer {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            background-color: lightgrey;
+        }
+        #bordeverde-flex {
+            display: flex;
+
+        }
     </style>
 </head>
 <body>
@@ -59,10 +94,25 @@
         <a href="">Formación</a>
     </nav>
     <main>
+        <h2 class="titulo">Nuestros Proyectos</h2>
+        <section id="nuestros-proyectos">
+            <article>
+                <div id="bordeverde">
+                    <img src="images/girasol.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe autem odit earum iste ad amet nihil quaerat, repellendus numquam id quas corporis ipsum doloremque excepturi explicabo fuga aliquam asperiores maiores.</p>
+                </div>
+            </article>
+            <article>
+                <div id="bordeverde-flex">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe autem odit earum iste ad amet nihil quaerat, repellendus numquam id quas corporis ipsum doloremque excepturi explicabo fuga aliquam asperiores maiores.</p>
+                    <img src="images/girasol.jpg" alt="">
 
+                </div>
+            </article>
+        </section>
     </main>
     <footer>
-        
+        <p>	&copy; 2024 IES Juan Bosco</p>
     </footer>
 </body>
 </html>
